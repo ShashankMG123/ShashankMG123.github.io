@@ -1392,13 +1392,14 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   /* testimonials */
 
-  .testimonials-title { margin-bottom: 25px; }
+  .testimonials-title { margin-bottom: -10px; }
 
   .testimonials-list {
     gap: 30px;
     margin: 0 -30px;
     padding: 30px;
     padding-bottom: 35px;
+    margin-bottom: -1px;
   }
 
   .content-card {
@@ -1415,7 +1416,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .testimonials-item-title {
     margin-bottom: 10px;
-    margin-left: 95px;
   }
 
   .testimonials-text {
@@ -1473,6 +1473,8 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .timeline-list { margin-left: 65px; }
+
+  .timeline-nested-list-title {margin-top : 20px}
 
   .timeline-item:not(:last-child)::before { left: -40px; }
 
