@@ -747,7 +747,11 @@ main {
 /*-----------------------------------*\
   #RESUME
 \*-----------------------------------*/
-
+.download { 
+  float: right; 
+  --fs-8: 14px; 
+  color: var(--orange-yellow-crayola);
+}
 .article-title { margin-bottom: 30px; }
 
 
